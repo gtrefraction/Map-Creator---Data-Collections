@@ -1,4 +1,4 @@
-Blog project for M101JS
+MapCreator for ES
 
 ./app.js - entry point
 ./package.json - npm package description

@@ -15,8 +15,8 @@ function ContentHandler (db) {
 
             if (err) return next(err);
 
-            return res.render('blog_template', {
-                title: 'blog homepage',
+            return res.render('mapcreator_template', {
+                title: 'map creator homepage',
                 username: req.username,
                 myposts: results
             });
@@ -33,8 +33,8 @@ function ContentHandler (db) {
 
             if (err) return next(err);
 
-            return res.render('blog_template', {
-                title: 'blog homepage',
+            return res.render('mapcreator_template', {
+                title: 'map creator homepage',
                 username: req.username,
                 myposts: results
             });
